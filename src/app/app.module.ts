@@ -25,13 +25,15 @@ import { MatSelectModule, MatFormFieldModule, MatInputModule } from '@angular/ma
 // Components
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
+import { MainBoardComponent } from './components/main-board/main-board.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    MainBoardComponent
   ],
   imports: [
     BrowserModule,

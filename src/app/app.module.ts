@@ -19,6 +19,9 @@ import { environment } from './../environments/environment';
 // import { AngularFirestoreModule } from 'angularfire2/firestore';
 // import { AngularFireAuthModule } from 'angularfire2/auth';
 
+import {AngularFireModule} from '@angular/fire'
+import {AngularFireDatabaseModule} from '@angular/fire/database'
+
 // Angular Material Modules.. 
 import { MatSelectModule, MatFormFieldModule, MatInputModule } from '@angular/material';
 
@@ -39,7 +42,8 @@ import { MainBoardComponent } from './components/main-board/main-board.component
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    // AngularFireModule.initializeApp(environment.firebase),
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireDatabaseModule,
     // AngularFirestoreModule, 
     // AngularFireAuthModule,
     HttpClientModule,

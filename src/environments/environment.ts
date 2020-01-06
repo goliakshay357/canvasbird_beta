@@ -6,7 +6,15 @@ export const environment = {
   production: false,
   
  firebase : {
- 
+  apiKey: "AIzaSyAIvjyHBEI6fefbdTLla-k5CSW_7qzE1F4",
+  authDomain: "canvasbird-adbf5.firebaseapp.com",
+  databaseURL: "https://canvasbird-adbf5.firebaseio.com",
+  projectId: "canvasbird-adbf5",
+  storageBucket: "canvasbird-adbf5.appspot.com",
+  messagingSenderId: "170309799757",
+  //not needed
+  appId: "1:170309799757:web:64862f7d51dec0a9edf104",
+  measurementId: "G-D7CJ7WWJNV"
   }
 
 };
